@@ -50,6 +50,9 @@ header p {
 /* hero button */
 .hero button {
     background-color: #3882F6;
+    border-radius: 4px;
+    border: transparent;
+    color: #F9FAF8;
 }
 /* information flexbox */
 .information {
@@ -79,10 +82,14 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    margin: 90px;
+    border-radius: 15px;
 }
 /* call to action button */
 .call-to-action button {
     background-color: #3882F6;
+    color: #F9FAF8;
 }
 /* footer */
 footer {
