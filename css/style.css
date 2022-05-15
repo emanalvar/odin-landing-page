@@ -33,5 +33,14 @@ header p {
     display: flex;
     margin: 90px;
 }
-
+/* information flexbox */
+.information {
+    display: flex;
+    margin: 90px;
+}
+/* images */
+img {
+    height: auto;
+    width: 300px;
+}
 
