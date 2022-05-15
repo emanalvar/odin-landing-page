@@ -55,10 +55,38 @@ header p {
 .information {
     display: flex;
     margin: 90px;
+    justify-content: space-between;
 }
 /* info images */
 .information img {
-    width: 150px;
-    margin: 10px;
-    
+    width: 150px; 
+}
+/* information text */
+.information p {
+    text-align: center;
+}
+/* quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #E5E7EB;
+}
+/* call to action */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* call to action button */
+.call-to-action button {
+    background-color: #3882F6;
+}
+/* footer */
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
 }
