@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: sans-serif;
 }
 /* header */
 header { 
@@ -12,6 +13,10 @@ header {
     font-size: 24px;
     justify-content: space-between;
 }
+/* header logo */
+header p {
+    margin-left: 90px;
+}
 /* header list */
 ul {
     display: flex;
@@ -20,17 +25,13 @@ ul {
 /* header links */
 a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
     margin-right: 90px;
 }
 a:hover {
     color: grey;
     text-decoration: underline;
-}
-/* header logo */
-header p {
-    margin-left: 90px;
 }
 /* hero */
 .hero {
@@ -50,10 +51,17 @@ header p {
     border-radius: 4px;
     margin-top: 75px;
 }
+/* hero header */
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
 /* hero text */
 .hero p {
     width: 500px;
     margin-right: 75px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 /* hero button */
 .hero button {
@@ -66,9 +74,25 @@ header p {
 /* information flexbox */
 .information {
     display: flex;
+    flex-direction: column;
     margin: 90px;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+/* information title */
+.information .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: -20px;
+}
+/* information image container */
+.information .images {
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: -20px;
 }
 /* info images */
 .information img {
@@ -83,10 +107,26 @@ header p {
 .quote {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin: 0;
     background-color: #E5E7EB;
+}
+/* speech */
+.quote .speech {
+    font-size: 36px;
+    font-style: italic;
+    margin: 60px 150px 0px 150px;
+    align-self: flex-start;
+
+}
+/* speaker */
+.quote .speaker {
+    font-size: 18px;
+    font-weight: 550;
+    align-self: flex-end;
+    margin-right: 150px;
+    margin-bottom: 60px;
 }
 /* call to action */
 .call-to-action {
