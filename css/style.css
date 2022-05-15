@@ -1,0 +1,37 @@
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+/* header */
+header { 
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: space-between;
+}
+/* list in header */
+ul {
+    display: flex;
+    list-style: none;
+}
+/* links in header */
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-right: 90px;
+}
+/* logo in header */
+header p {
+    margin-left: 90px;
+}
+/* under header. text and img */
+.hero {
+    display: flex;
+    margin: 90px;
+}
+
+
