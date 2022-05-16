@@ -29,6 +29,10 @@ ul {
     margin-right: 40px;
     gap: 50px;
 }
+/* link images */
+ul img {
+    width: 20px;
+}
 /* header links */
 a {
     text-decoration: none;
