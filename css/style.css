@@ -20,13 +20,13 @@ header {
 }
 /* header logo */
 header p {
-    margin-left: 90px;
+    margin-left: 40px;
 }
 /* header list */
 ul {
     display: flex;
     list-style: none;
-    margin-right: 90px;
+    margin-right: 40px;
     gap: 50px;
 }
 /* header links */
@@ -41,7 +41,7 @@ a:hover {
 /* hero */
 .hero {
     display: flex;
-    margin: 90px;
+    margin: 40px;
     background-color: rgba(21, 21, 21, 0.777);
     padding: 0px 15px 90px 15px;
     color: #F9FAF8;
@@ -55,11 +55,13 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
 }
 /* hero image */
 .hero img {
     height: auto;
-    width: 500px;
+    min-width: 0px;
+    max-width: 500px;
     border-radius: 4px;
     margin-top: 75px;
 }
@@ -160,8 +162,9 @@ a:hover {
     border-radius: 15px;
     gap: 75px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px;
+    flex-wrap: wrap;
 }
 /* call to action text */
 .call-to-action .left {
@@ -184,6 +187,7 @@ a:hover {
 .call-to-action .text {
     font-weight: 100px;
     color: #e5e7ebca;
+    max-width: 450px;
 }
 /* call to action button */
 .call-to-action button {
