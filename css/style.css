@@ -196,11 +196,29 @@ a:hover {
 }
 /* footer */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
     background-color: rgba(21, 21, 21, 1);
-    text-align: center;
     color: rgba(249, 250, 248, 0.8);
-    margin: 0;
 }
+/* footer credit */
+.credits {
+    align-self: center;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* footer github */
+.github {
+    align-self: flex-end;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.435);
+    margin-right: 6px;
+    margin-top: -10px;
+}
+/* button hover details */
 button:hover {
     background-color: #bd394447;
     color: rgba(255, 255, 255, 0.536);
